@@ -1,13 +1,19 @@
   function fn(e){
-		return e + this.list;
+		return `${e} + ${this.name}`;
 	}
 const some = {
-	list: "JOPA",
+	name: "JOPA",
 
 };
-let all = fn.call(some, "Hi  ");
-/*let c = fn.bind(some);
-let meet = "Hi cool ";
-let all= c(meet);*/
-let b = setTimeout(all, 1000);
- console.log(b);
+
+var res = fn.bind(some);
+
+function Call (param){
+  console.log(res(param));
+}
+
+
+
+setTimeout(Call, 1000, "Hi");
+
+
