@@ -19,3 +19,7 @@ case "Do" : homecity = "LA";
 
 console.log(homecity);
 
+
+
+
+

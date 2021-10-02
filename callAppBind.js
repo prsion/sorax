@@ -9,13 +9,16 @@ name: "John",
 
 var anotherPerson = {
 name: "Doe",
-/*greet: greet*/
+//greet: greet
 };
 
+var syrname = `Hello dude`;
 var bound= greet.bind(person );
-console.log(bound("Hello dude"));
-console.log(greet.call(person, 'Daroffa'));
-console.log(greet.apply(anotherPerson, ['Hiiiiiii']));
+console.log(bound(syrname));
+/*console.log(greet.call(person, 'Daroffa'));
+console.log(greet.apply(anotherPerson, ['Hiiiiiii']));*/
 
 /*console.log(anotherPerson.greet.call(person, 'Daroffa'));
 console.log(anotherPerson.greet.apply(anotherPerson, ['Hiiiiii']));*/
+
+

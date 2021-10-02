@@ -1,5 +1,5 @@
 var person = {
-	age: 45,
+	age: 55,
 	gender: 'male',
 	name: 'prsion',
 	sayHi: function(){ 
@@ -21,13 +21,17 @@ console.log(object.y);
 															
 var person2 = Object.create(person);
 person2.name = 'go';	
-console.log(person2.name);		
+console.log(person2.name);	
 console.log(person2.sayHi());
+
+
+
+
+
 						
 						
 
 
-														
 		
 					
 
