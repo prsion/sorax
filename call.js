@@ -6,14 +6,12 @@ const some = {
 
 };
 
-var res = fn.bind(some);
+var Res = fn.bind(some);
 
-function Call (param){
-  console.log(res(param));
+ function All (param){
+   console.log(Res(param));
 }
 
 
-
-setTimeout(Call, 1000, "Hi");
-
+setTimeout(All, 1000, "How are  U");
 
